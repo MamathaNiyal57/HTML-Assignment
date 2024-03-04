@@ -1,0 +1,86 @@
+body{
+    background-image: url("flowers.avif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    justify-content: space-between;
+    height:100vh;
+    
+}
+.navbar{
+    height: 70px;
+    background-color: hsl(0, 24%, 39%);
+    display: flex;
+    /*justify-content: center;*/
+   /* justify-content: space-between;*/
+    
+
+}
+li{
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+    /*justify-content: space-evenly;*/
+}
+ .nav-item{
+    text-decoration: none;
+    color:aliceblue;
+    margin-right:210px;
+} 
+
+.nav-item:hover{
+    color:black;
+}
+.footer{
+    height: 70px;
+    background-color:hsl(0, 24%, 39%);
+    margin-top:40vh;
+}
+.a
+{
+    display: flex;
+    justify-content: center;
+}
+.box
+{
+    height:350px;
+    width:350px;
+    background-color:rgb(196, 163, 169);
+    /*display: flex;
+    justify-content: space-between;*/
+    position:relative;
+    margin-top: 70px;
+    margin-left: 100px;
+    
+}
+.Home{
+    display: flex;
+    flex-direction: row;
+}
+#box-2{
+    background-image: url("Tulip.avif");
+    background-size: cover;
+    border-radius: 10px;
+}
+#box-1
+{
+    background-color:rgb(226, 213, 215);
+    background-color: transparent;
+    /*visibility: hidden;*/
+}
+#box-3
+{
+    background-image: url("box3.avif");
+    background-size: cover;
+    border-radius: 10px;
+}
+h1{
+    font-family:"Bree Serif";
+    font-size: 50px;
+}
+h2{
+    font-style: italic;
+}
+.About{
+    
+    /*background-color: pink;*/
+}
